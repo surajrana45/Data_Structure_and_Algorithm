@@ -48,7 +48,7 @@ TreeNode<int>* TakeInputLevel()
             pendingNodes.push(child);
         }
     }
-
+   return root;
 }
 
 void print(TreeNode<int>*root)
